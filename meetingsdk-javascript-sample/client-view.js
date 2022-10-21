@@ -7,9 +7,9 @@ ZoomMtg.i18n.load('en-US')
 ZoomMtg.i18n.reload('en-US')
 
 // setup your signature endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
-var signatureEndpoint = 'http://localhost:5500'
+var signatureEndpoint = 'http://localhost:4000'
 var sdkKey = 'ZkTOCkettEg4CZaVBYswdcJWyBcUyjwUSVUX'
-var meetingNumber = '76666503697'
+var meetingNumber = '73160548308'
 var role = 0
 var leaveUrl = 'http://localhost:8080'
 var userName = 'Ahejazi'
@@ -19,6 +19,120 @@ var passWord = ''
 // Meetings: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/meetings#join-meeting-with-registration-required
 // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/webinars#join-webinar-with-registration-required
 var registrantToken = ''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function getSignature() {
   fetch(signatureEndpoint, {
